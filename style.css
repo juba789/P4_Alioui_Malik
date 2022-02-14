@@ -376,7 +376,7 @@ blockquote p
 
 blockquote cite
 {
-    color:#575757
+    color:#575757;
     /* color:red */
 }
 
@@ -800,8 +800,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #303030!important;
-    /* background: #303030; */
-    /* color: #f3976c!important; */
+    
 }
 
 .btn-atomic-tangerine:hover {
