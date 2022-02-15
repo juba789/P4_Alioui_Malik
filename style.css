@@ -369,11 +369,6 @@ padding-top: 5px;
 border-radius: 30px;
 }
 
-/* .col-sm-12.background */
-/* { */
-/* background:rgba(37,37,37,.7) */
-
-/* } */
 blockquote p
 {
     font-size: 23px;
@@ -381,8 +376,7 @@ blockquote p
 
 blockquote cite
 {
-    color:#575757;
-    /* color:red */
+color:#575757;
 }
 
 .mg-md.text-center.tc-white
@@ -393,9 +387,15 @@ color: #F3976C!important;
 
 .mg-md.text-center.tc-white.clear-text
 {
-    color:#FFFFFF!important;
-    font-size: 25px;
+color:#FFFFFF!important;
+font-size: 25px;
+position: relative;
+}
 
+.text-center.black
+{
+color: #303030!important;
+font-size: 16px;
 }
 
 @media (min-width: 768px) {
