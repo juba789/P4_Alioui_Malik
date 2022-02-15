@@ -398,6 +398,23 @@ color: #303030!important;
 font-size: 16px;
 }
 
+.text-center.hero-bloc-text.tc-white.contact
+{
+    color: black !important;
+}
+.text-center.mg-lg.tc-white.tight-width-whitespace.contact
+{
+    color: black !important;
+}
+.col-sm-6.contact 
+{
+    width:100%;
+}
+.col-sm-6.contact p
+{
+    font-weight: bold;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
