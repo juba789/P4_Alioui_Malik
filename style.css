@@ -361,7 +361,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-.col-sm-12.background
+.col-sm-12.logo
 {
 /* background: green; */
 padding-top: 5px;
@@ -369,6 +369,11 @@ padding-top: 5px;
 border-radius: 30px;
 }
 
+/* .col-sm-12.background */
+/* { */
+/* background:rgba(37,37,37,.7) */
+
+/* } */
 blockquote p
 {
     font-size: 23px;
@@ -380,6 +385,18 @@ blockquote cite
     /* color:red */
 }
 
+.mg-md.text-center.tc-white
+{
+color: #F3976C!important;
+/* color:#FFFFFF!important; */
+}
+
+.mg-md.text-center.tc-white.clear-text
+{
+    color:#FFFFFF!important;
+    font-size: 25px;
+
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -772,7 +789,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    /* background-color: rgba(165, 147, 99, 0.7); */
+    background: rgba(37, 37, 37, .7);
     padding: 40px 40px 40px 40px;
 }
 
