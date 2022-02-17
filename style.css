@@ -414,9 +414,14 @@ font-size: 16px;
 {
     font-weight: bold;
 }
-a:focus {
+a:focus
+{
 outline: solid !important;
-   
+}
+
+button:focus
+{
+    outline: solid !important;
 }
 
 @media (min-width: 768px) {
@@ -534,6 +539,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #575757 !important;
 }
 
 .icon-lg {
